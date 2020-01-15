@@ -4,8 +4,35 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "36d1d356ca35c1b9a04b69da7b6a9140",
+    "content-hash": "8f7243b116afdf1642d07dd6300a228d",
     "packages": [
+        {
+            "name": "cotoflux/randomnum",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cotoflux/randomNum.git",
+                "reference": "694f9ee7e57980b887ad4b3f5f1e774873e4620b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cotoflux/randomNum/zipball/694f9ee7e57980b887ad4b3f5f1e774873e4620b",
+                "reference": "694f9ee7e57980b887ad4b3f5f1e774873e4620b",
+                "shasum": ""
+            },
+            "require": {
+                "phpunit/phpunit": "^8"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Generates random number",
+            "homepage": "https://github.com/cotoflux/randomNum.git",
+            "keywords": [
+                "number",
+                "random"
+            ],
+            "time": "2020-01-15T08:12:39+00:00"
+        },
         {
             "name": "doctrine/instantiator",
             "version": "1.3.0",
@@ -1526,7 +1553,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "cotoflux/randomnum": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

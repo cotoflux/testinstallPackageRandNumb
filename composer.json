@@ -9,6 +9,6 @@
     ],
     "require": {
         "phpunit/phpunit": "^8",
-        "cotoflux/randomnum": "master@dev"
+        "cotoflux/randomnum": "^1"
     }
 }

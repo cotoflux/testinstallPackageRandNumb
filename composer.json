@@ -1,0 +1,14 @@
+{
+    "name": "cotoflux/test-randomnum",
+    
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/cotoflux/randomNum.git"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^8",
+        "cotoflux/randomnum": "master@dev"
+    }
+}
